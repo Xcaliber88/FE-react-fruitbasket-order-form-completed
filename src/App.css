@@ -1,0 +1,72 @@
+#root {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    margin: auto;
+}
+
+.masterContainer {
+    display: flex;
+    margin-top: 5%;
+    width: calc(100% - 10px);
+}
+
+.fruitcontainer {
+    flex-basis: 50%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form {
+    flex-basis: 50%;
+    padding-left: 5%;
+}
+
+.userInfo {
+    display: flex;
+}
+
+.deliveryFrequency {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner {
+
+    border-color: #0a5663;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+
+
+.container {
+    padding: 20px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+
+.resetButton {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+    border-width: initial;
+    background-color: white;
+    margin-bottom: 100px;
+}
+span{
+    color: red;
+}
+
+.textfield {
+    margin-top: 5px;
+    display: flex;
+}
